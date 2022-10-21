@@ -1,0 +1,42 @@
+Projet : Blog
+Pour ce projet vous devrez concevoir le back-end d'un site de blog de manga.
+Vous devrez créer une base de donnée "article", mettre en place le CRUD pour les document de"article"
+
+•••
+Instructions
+
+Model Article
+
+- Créez un model "Article" qui contient les propriètés suivantes:
+
+- title : il doit être une chaîne de caractères et doit être obligatoirement fournis.
+
+- summary: il doit être une chaîne de caractères et doit être obligatoirement fournis.
+
+- content: il doit être une chaîne de caractères et doit être obligatoirement fournis.
+
+- tags: ce sera un tableau 🔗 de  chaîne de caractères, oblogatoire et acceptera que ces derniers:
+
+    - shonen
+
+    - shojo
+
+    - seinen
+
+    - josei
+
+    - yuri
+
+    - yaoi
+
+- review: un objet qui contient qui ne sera pas obligatoire :
+
+    - comment:  il doit être une chaîne de caractères et doit être obligatoirement fournis.
+
+    - author:  il doit être une chaîne de caractères et doit être obligatoirement fournis.
+
+    - rating: il doit être un nombre, il ne doit pas être supérieur à 5 et doit être obligatoirement fournis.
+
+Le CRUD des articles
+
+- Effectuez tous les CRUD des articles et testez le avec Postman
